@@ -48,8 +48,8 @@ This repository contains a Django REST Framework ATS system:
 
 **1. Clone the repository**
 ```bash
- git clone https://github.com/santoshgawande/ats-api.git
-   cd ats
+git clone https://github.com/santoshgawande/ats-api.git
+cd ats
 ```
 
 **2. Create and activate a virtual environment**
@@ -78,7 +78,8 @@ python manage.py shell < candidates/seed_data.py
 ```bash
 python manage.py runserver
 ```
-- By default, the server listens on http://127.0.0.1:8000/
+- By default, the development server runs at: http://127.0.0.1:8000
+You can access the API at: http://127.0.0.1:8000/api/candidates/
 
 
 ## API Testing Examples (Postman)
